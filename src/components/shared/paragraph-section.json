@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_paragraph_sections",
+  "info": {
+    "displayName": "paragraph-section"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 50,
+      "maxLength": 2000
+    }
+  },
+  "config": {}
+}

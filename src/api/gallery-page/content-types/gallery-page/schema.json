@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "gallery_pages",
+  "info": {
+    "singularName": "gallery-page",
+    "pluralName": "gallery-pages",
+    "displayName": "Gallery Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "galleryItems": {
+      "type": "component",
+      "component": "shared.gallery-item",
+      "repeatable": true
+    }
+  }
+}
